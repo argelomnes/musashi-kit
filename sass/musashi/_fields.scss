@@ -1,0 +1,43 @@
+input[type='email'],
+input[type='number'],
+input[type='search'],
+input[type='text'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+textarea,
+select {
+    height: 4.2rem;
+    margin-bottom: 2rem;
+    padding: 0.4rem 1.5rem;
+
+    border: 1px solid var(--gray-400);
+    border-radius: 4px;
+
+    background-color: var(--white);
+    box-shadow: none;
+
+    line-height: 4rem;
+}
+
+textarea {
+    min-height: 120px;
+
+    resize: vertical;
+}
+
+select {
+    padding: 0.4rem 1.2rem;
+}
+
+label,
+legend {
+    margin-bottom: 0.5rem;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+}

@@ -1,0 +1,25 @@
+ul {
+    // list-style: none;
+}
+
+ul,
+ol {
+    margin: 0 0 2.4rem 4rem;
+}
+
+li > ul,
+li > ol {
+    margin-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 2.4rem 2.4rem;
+}

@@ -1,0 +1,27 @@
+.container {
+    max-width: var(--grid-width);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+    @media (--desktop) {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+
+.site-header {
+}
+
+.site-nav {
+}
+
+.site-nav--main {
+}
+
+.site-content {
+}
+
+.site-footer {
+}
